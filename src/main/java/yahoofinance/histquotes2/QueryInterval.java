@@ -6,11 +6,12 @@ package yahoofinance.histquotes2;
  * @author Stijn Strickx
  */
 public enum QueryInterval {
-    
+
+    FIFTEEN_MINUTES("15m"),
     DAILY("1d"),
     WEEKLY("5d"),
     MONTHLY("1mo");
-    
+
     private final String tag;
     
     QueryInterval(String tag) {
